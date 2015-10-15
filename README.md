@@ -35,8 +35,9 @@ Requires imagemagick CLI tools to be installed.
 ```js
 npm install
 npm start
-# or if you prefer
-node server.js
+#memory issues? defaults to 512mb and 1GB respectively
+#limits are 1.4GB in 32-bit node and 4GB in 64-bit node
+node --max_old_space_size={size in mb} server.js
 ```
 ## Env vars
 ```
