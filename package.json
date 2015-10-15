@@ -1,24 +1,17 @@
 {
-  "name": "node-resize-image-server",
+  "name": "image-crop-server",
   "version": "0.0.1",
-  "description": "Web server with NodeJS thats only function is to resize images from the web",
-  "keywords": [
-    "nodejs",
-    "image",
-    "resize"
-  ],
-  "author": "Philmod <philippe.modard@gmail.com>",
+  "description": "Web server with NodeJS thats manipulates images from the zooniverse static",
+  "author": "The Zooniverse",
+  "license": "Apache-2.0",
   "engines": {
     "node": ">= v0.8.x"
   },
   "dependencies": {
-    "express": "3.x",
-    "imagemagick": "0.1.3",
-    "gm": "1.20.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/Philmod/node-resize-image-server.git"
+    "express": "^4.13.3",
+    "imagemagick": "^0.1.3",
+    "gm": "^1.20.0",
+    "morgan": "^1.6.1"
   },
   "main": "server"
 }
