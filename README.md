@@ -49,3 +49,6 @@ NODE_DEBUG || false
 
 ## Notes
   - Does not delete the pictures in the /img directory, will need to clean these up manually.
+
+## Credits
+Inspired by the good work from Philmod, https://github.com/Philmod/node-resize-image-server
