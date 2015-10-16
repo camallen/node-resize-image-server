@@ -1,6 +1,6 @@
-# image-crop-server
+# static_crop
 
-NodeJS Web server thats crops and/or resizes images from the zooniverse's static media server
+NodeJS web server thats crops and / or resizes images from the Zooniverse's static media server
 
 ## What is it?
 A HTTP wrapper over image magic that offers crop, resize and crop_resize functions on the image specified by a query param `u`. Note: the `?u=` query param should be a path suffix from the specified static server hostname. E.g the following media resource `u` query param:
